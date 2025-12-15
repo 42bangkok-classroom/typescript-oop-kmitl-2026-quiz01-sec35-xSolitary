@@ -14,9 +14,9 @@ else if (amount > balance) {
 }
 
 else if (amount > 5000) {
-  console.log("Exceeds per-withdrawal limit");
+  console.log("Exceeds limit");
 }
 
 else {
-  console.log("Withdrawal successful");
+  console.log("approved");
 }

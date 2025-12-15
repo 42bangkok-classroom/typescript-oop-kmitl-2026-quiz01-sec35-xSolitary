@@ -2,10 +2,10 @@ export {};
 const inputnum = process.argv[2];
 const point = Number(inputnum)
 if (Number.isNaN(point)){
-  console.log('Invalid inout');
+  console.log('Invalid input');
 }
 else if(point < 0 || point > 100){
-  console.log('Invalid inout');
+  console.log('Invalid input');
 }
 else{
   if (point >= 80){console.log(`Grade is A`);}
