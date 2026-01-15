@@ -9,7 +9,7 @@ else if(n<0){
 }
 else{
     for(let i = 1;i<=n;i++){
-    sum *= i;
+        sum *= i;
     }
     console.log(sum);
 }
