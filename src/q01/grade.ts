@@ -3,14 +3,14 @@ export {};
 const inputnum = process.argv[2];
 
 if (inputnum === undefined || inputnum.trim() === "") {
-  console.log("invalid input");
+  console.log("Invalid Input");
   process.exit();
 }
 
 const point = Number(inputnum);
 
 if (Number.isNaN(point) || point < 0 || point > 100) {
-  console.log("invalid input");
+  console.log("Invalid Input");
 } else {
   if (point >= 80) console.log("Grade is A");
   else if (point >= 70) console.log("Grade is B");
